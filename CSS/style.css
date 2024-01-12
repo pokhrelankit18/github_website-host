@@ -19,7 +19,7 @@ nav{
     width: 100vw;
     position: fixed;
     top: 0px;
-    height: 60px;
+    height: 9vh;
     background-color: rgb(19, 19, 78);
 }
 
@@ -45,6 +45,9 @@ nav ul li a:hover{
 .left{
     font-size: 1.8rem;
 }
+.left:hover{
+    color:blueviolet;
+}
 
 .firstSection
 {
@@ -66,7 +69,7 @@ nav ul li a:hover{
 
 .RightSection img
 {
-    width: 107%;
+    width: 60vh;
     margin: 80px 0;
     border: 2px solid rgb(86, 30, 183);
     border-radius: 50%;
@@ -96,7 +99,7 @@ nav ul li a:hover{
 }
 .horiline {
     background: white;
-    width: 72vw;
+    width: 76vw;
     height: 2px;
     margin: 51px auto;
     display: flex;
